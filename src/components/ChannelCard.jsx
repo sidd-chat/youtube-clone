@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 
 import { Box, Typography, CardContent, CardMedia } from "@mui/material";
-import { CheckCircle } from "@mui/icons-material";
+// import { CheckCircle } from "@mui/icons-material";
 
-import { demoProfilePicture, demoChannelUrl } from "../utils/constants";
+import { demoProfilePicture } from "../utils/constants";
 
 const ChannelCard = ({ channel, marginTop }) => (
     // ! 1. Solve Subscriber Count not showing up problem
     <Box
         sx={{
             boxShadow: "none",
-            borderRadius: "20px",
+            // borderRadius: "20px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            width: { xs: "356px", md: "320px" },
+            // width: { xs: "356px", md: "320px" },
             height: "295px",
             margin: "auto",
             marginTop,
@@ -51,8 +51,8 @@ const ChannelCard = ({ channel, marginTop }) => (
                     {" "}
                     {channel.snippet.title}{" "}
                     {/* <CheckCircle
-                                                                                                                                                                                                                                                                                                                                                                sx={{ fontSize: 14, color: "gray", ml: "5px" }}
-                                                                                                                                                                                                                                                                                                                                                            />{" "} */}{" "}
+                                                                                                                                                                                                                                                                                                                                                                        sx={{ fontSize: 14, color: "gray", ml: "5px" }}
+                                                                                                                                                                                                                                                                                                                                                                    />{" "} */}{" "}
                 </Typography>{" "}
                 {channel.statistics ? (
                     <Typography fontSize="12px">
