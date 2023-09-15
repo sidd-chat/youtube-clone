@@ -1,5 +1,5 @@
 # YouTube Clone with React JS and Material UI 
-Visit www.youtube-siddchat.netlify.app to see the website live!
+Visit youtube-siddchat.netlify.app to see the website live!
 
 ## Some Example Screenshots are Given Below:
 
